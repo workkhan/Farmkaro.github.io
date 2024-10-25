@@ -1,0 +1,282 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    display: block;
+    width:98%;
+    height: 95vh;
+    background-image: url(assests/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#navbar{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 10%;
+    height:10px;
+    background-color: rgba(27, 26, 26, 0.521); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 50px; /* Rounded corners */
+    border: 1px solid rgb(1, 255, 1);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: width 1s ease,  0.5s ease;
+}
+
+
+#o{
+    width: 100%;
+    display: inline-flex;
+    background-color: rgba(27, 26, 26, 0);
+    color: rgb(1, 255, 1); 
+}
+#o i{
+    background-color:rgba(27, 26, 26, 0);
+    color:rgb(1, 255, 1); 
+    margin-left: 25px;
+}
+#o a{
+    padding: 10px;
+    margin-top: -16px;
+    color:rgb(1, 255, 1); 
+    background-color:rgba(27, 26, 26, 0);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    transition-delay: 0.5s;
+}
+#navbar #t2,#h2{
+    display: none;
+}
+#navbar:hover{
+    width: 90%;
+    margin-left: 5%;
+}
+#navbar:hover  #t2{
+    display: block;
+}
+#navbar:hover  #h2{
+    display: block;
+}
+.logo{
+    display: grid;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.home .logo  img{
+   align-self: center;
+}
+
+.services{
+    width: 98%;
+    height: 97vh;
+    background-color: rgba(1, 255, 1, 0.466); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.services img{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.cardbox{
+    display:inline-flex;
+    margin-left: 15%;
+}
+.card{
+    width: 300px ;
+    height: 400px;
+    margin-right: 40px;
+    background-color: rgba(27, 26, 26, 0.493);
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 50px; /* Rounded corners */
+    border: 3px solid rgb(1, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card h1{
+    font-size: 50px;
+    line-height: 55px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.card button{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(1, 255, 1);
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about{
+    width: 98%;
+    height: 98vh;
+    background-color: rgba(3, 148, 3, 0.466); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.about img{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.about .ub{
+    display: inline-flex;
+    margin-top: 5%;
+    margin-left: 60px;
+}
+.about .ub1{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(27, 26, 26, 0.493);
+    border: 1px solid  rgb(1, 255, 1) ;
+    border-radius: 10px;
+}
+.about .ub1 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(1, 255, 1) ;
+}
+.about .ub2{
+    margin-left: 290px;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(27, 26, 26, 0.493);
+    border: 1px solid  rgb(1, 255, 1) ;
+    border-radius: 10px;
+}
+.about .ub2 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(1, 255, 1) ;
+}
+
+.about .lin{
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgb(1, 255, 1);
+}
+.about .btb{
+    display: inline-flex;
+    margin-left: 350px;
+}
+.about .btb1{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(27, 26, 26, 0.493);
+    border: 1px solid  rgb(1, 255, 1) ;
+    border-radius: 10px;
+}
+.about .btb2{
+    margin-left: 300px;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(27, 26, 26, 0.493);
+    border: 1px solid  rgb(1, 255, 1) ;
+    border-radius: 10px;
+}
+.about .btb2 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(1, 255, 1) ;
+}
+.about .btb1 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(1, 255, 1) ;
+}
+.contact{
+    width: 98%;
+    height: 98vh;
+    background-color: rgba(2, 99, 2, 0.466); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.contact img{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.contact .con2{
+    display: inline-flex;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+.contact .con2 .con3{
+    margin-left: 40px;
+    width: 590px;
+    height: 350px;
+    background-color:rgba(2, 43, 2, 0.466) ;
+    border-radius: 30px;
+    border: 1px solid  rgb(1, 255, 1) ;
+}
+.con3 i{
+    font-size:30px ;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(1, 255, 1) ;
+    border-radius: 100%;
+}
+.con3 h1{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.con3 p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+}
+.contact .con2 .con3 #fu{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 255, 1);
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+ 
+}
